@@ -66,6 +66,7 @@ margin: 0;
 padding: 0;
 color: var(--gry-blu);
 overflow-x: hidden;
+background: var(--lgt-gry);
 
 }
 
@@ -129,6 +130,15 @@ header > * {
     border-radius: 5px;
 }
 
+/* Column font spacing */
+
+.feature-col h2, .feature-col p {
+ 
+margin: 0;
+
+}
+/* Column font spacing */
+
 .col-1 {
     border-top: 4px solid var(--cyan);
 }
@@ -148,6 +158,7 @@ header > * {
 .feature-col img {
     display: block;
     margin-left: auto;
+    margin-top: 2rem;
 }
 
 /* *****************
